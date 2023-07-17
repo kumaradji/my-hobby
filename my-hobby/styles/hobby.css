@@ -1,0 +1,90 @@
+/* Общие стили для текста */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: black;
+}
+
+/* Стили для заголовков */
+h1,
+h2,
+h3 {
+    color: black;
+}
+
+/* Стили для обычного текста */
+p {
+    color: black;
+}
+
+/* Стили для надписей синего цвета */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3.2em;
+    background-color: #ffffff;
+    color: rgb(6, 6, 6);
+    text-align: center;
+    padding: 10px 0;
+}
+
+.header {
+    background-color: #222;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.foto-image{
+    height: 250px;
+}
+
+.image {
+    height: 50px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-right: 10px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+header a:hover {
+    color: blue;
+}
+
+.advert-header {
+    display: flex;
+    align-items: center;
+}
